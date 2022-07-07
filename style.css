@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-position: -4% -16%;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 1739px;
+  }
+
+  .firstSection{
+    margin-top: 39.99px;
+    margin-left: 24.15px;
+  }
+
+  .logo{
+    width: 146.09px;
+    height: 32px;
+  }
+  .firstSectionTexts{
+    margin-top: 64.01px;
+  }
+  .firstSecHeadline{
+    width: 327px;
+    height: 144px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+  }
+  .firstSecParagraph{
+    width: 327px;
+    height: 156px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 20px;
+  }
+  .darckCube{
+    width: 100%px;
+    height: 600px;
+    background: #191826;
+    border-radius: 12px;
+    margin-top: 166px;
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: 73% 0%;
+  }
+  .appImage{
+    width: 208.97px;
+    height: 430px;
+    position: relative;
+    top: -39%;
+    left: 24%;
+  }
+.card{
+    width: 100%px;
+    height: 546px;
+    background: #FA7453;
+    border-radius: 12px;
+    position: relative;
+    top: -34%;
+}
+.cardTexts{
+    padding-top: 48px;
+    padding-left: 36px;
+    padding-right: 37px;
+    padding-bottom: 32px;
+}
+.cardHeadline{
+    width: 302px;
+    height: 40px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    margin-bottom: 12px;
+}
+.cardParagraph{
+    width: 302px;
+    height: 140px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+.costAmount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.cost{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin-right: 16px;
+}
+.month{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+}
+.cardButtons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 138px; */
+    padding-left: 42px;
+    padding-right: 37px;
+}
+.ios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 61px;
+    background: #191826;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    border: 0px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ios:hover{
+    background: #66E2DC;
+}
+.iosLogo{
+    margin-right: 7.92px;
+}
+.iosText{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+.android{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 61px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    margin-bottom: 48px;
+    border: 0px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.android:hover{
+    background: #FFB964;
+}
+.androidLogo{
+    margin-right: 11.14px;
+}
+.androidText{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+.footer{
+    margin-top: 63.99px;
+    margin-left: 25.15px;
+    height: 333.01px;
+}
+.footerLogo{
+    margin-bottom: 32.01px;
+}
+.footerParagraph{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-bottom: 66.25px;
+}
+.socialMediaIcons{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 81.5px;
+    transition: 0.5s;
+}
+.socialMediaIcons:hover{
+    background: #FA7453;
+}
+.midSection{
+    margin-bottom: -369px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: url(./assets/bg-main-tablet.png)  , url(./assets/bg-pattern-1.svg);
+        background-position: 66% -28% , 110% -42px;
+    }
+    .firstSection{
+        margin-top: 61.99px;
+        margin-left: 39.15px;
+    }
+    .firstSectionTexts{
+        margin-top: 95.01px;
+    }
+    .firstSecHeadline{
+        width: 520px;
+        height: 192px;
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .firstSecParagraph{
+        width: 514px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 28px;
+    }
+    .midSection{
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 0;
+        max-height: 1024px;
+    }
+    .darckCube{
+        background-position: 52% -30%;
+    }
+    .appImage{
+        width: 270.21px;
+        height: 556px;
+        position: relative;
+        top: -71%;
+        left: 8%;
+        z-index: 2;
+    }
+    .card{
+        width: 399px;
+        height: 546px;
+        position: relative;
+        top: -96%;
+        left: 34%;
+        z-index: 2;
+    }
+    .footer{
+        /* margin-top: 182.99px; */
+        margin-left: 34.15px;
+        /* margin-bottom: 85px; */
+    }
+    .footerTextAndIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 32.1px;
+    }
+    .footerParagraph{
+        height: 79px;
+        width: 366px;
+    }
+    .socialMediaIcons{
+        margin-left: 230px;
+        padding-top: 35px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background-image: url(./assets/bg-main-desktop.png)  , url(./assets/bg-pattern-1.svg);
+        background-position: 64% -90% , 100% -42px;
+    }
+    .firstSection{
+        margin-left: 165.15px;
+        /* margin-bottom: 321px; */
+    }
+    .firstSectionTexts{
+        margin-top: 127.01px;
+    }
+    .firstSecHeadline{
+        width: 1015px;
+        height: 176px;
+        font-size: 88px;
+        line-height: 88px;
+    }
+    .firstSecParagraph{
+        width: 825px;
+        height: 102px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 40px;
+    }
+    .midSection{
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+    .appImage{
+        position: absolute;
+        width: 280px;
+        height: 606px;
+        top: 29%;
+        left: 26.2%;
+    }
+    .darckCube{
+        margin-top: 321px;
+    }
+    .card{
+        width: 446px;
+        height: 625px;
+        position: absolute;
+        top: 42%;
+        left: 56.1%
+    }
+    .cardTexts{
+        padding-top: 58px;
+        padding-left: 54px;
+        padding-right: 59px;
+        padding-bottom: 46px;
+    }
+    .cardHeadline{
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 22px;
+    }
+    .cardParagraph{
+        font-size: 20px;
+        line-height: 34px;
+        width: 333px;
+        height: 170px;
+    }
+    .costAmount{
+        margin-top: 39px;
+    }
+    .cardButtons{
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+    .android{
+        margin-bottom: 46px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerLogo{
+        width: 146.09px;
+        height: 32px;
+        margin-left: 166.15;
+        margin-top: 153.99px;
+    }
+    .footerTextAndIcons{
+        margin-top: 153.99px;
+        margin-left: 137.76px;
+    }
+
+}
