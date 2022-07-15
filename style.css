@@ -326,11 +326,11 @@
         margin-right: 165px;
     }
     .appImage{
-        position: absolute;
+        position: relative;
         width: 280px;
         height: 606px;
-        top: 29%;
-        left: 26.2%;
+        top: -79%;
+        left: 19.2%;
     }
     .darckCube{
         margin-top: 321px;
@@ -338,9 +338,9 @@
     .card{
         width: 446px;
         height: 625px;
-        position: absolute;
-        top: 42%;
-        left: 56.1%
+        position: relative;
+        top: -105%;
+        left: 58.1%
     }
     .cardTexts{
         padding-top: 58px;
